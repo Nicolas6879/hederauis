@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Descifra Hedera · Hackathon Web3 UFest26</title>
+<meta name="description" content="Toda la información del hackathon Descifra Hedera: reglas, criterios, premios, recursos, mentoría en Discord y formulario de entrega.">
+<style>
+  :root{
+    --bg:#0b0d2a; --bg2:#12154a; --card:#161a55; --line:#2b3090;
+    --text:#f3f4ff; --muted:#b7bbf0; --accent:#8259ef; --accent2:#2d84eb; --ok:#5eead4;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,var(--bg),#101448 60%,var(--bg));color:var(--text);line-height:1.6}
+  a{color:#b9a6ff}
+  .wrap{max-width:860px;margin:0 auto;padding:0 16px}
+  header.hero{padding:56px 0 40px;background:radial-gradient(circle at 80% 0,rgba(130,89,239,.45),transparent 55%),radial-gradient(circle at 0 100%,rgba(45,132,235,.35),transparent 50%)}
+  .tag{display:inline-block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 14px}
+  h1{font-size:clamp(34px,7vw,56px);line-height:1.1;margin:18px 0 12px}
+  h1 span{color:var(--accent)}
+  .lead{font-size:18px;color:var(--muted);max-width:640px}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:bold;padding:14px 26px;border-radius:12px;margin:8px 10px 0 0}
+  .btn.alt{background:transparent;border:2px solid var(--accent2);color:#cfe3ff}
+  .deadline{margin-top:22px;padding:14px 18px;border-radius:12px;background:rgba(94,234,212,.1);border:1px solid rgba(94,234,212,.4);color:var(--ok);display:inline-block}
+  nav{position:sticky;top:0;background:rgba(11,13,42,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+  nav .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 16px}
+  nav a{white-space:nowrap;text-decoration:none;color:var(--muted);font-size:14px;padding:6px 12px;border-radius:999px}
+  nav a:hover{background:var(--card);color:#fff}
+  section{padding:44px 0 8px}
+  h2{font-size:28px;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 20px}
+  .grid{display:grid;gap:14px}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:18px}
+  .card p{margin:0;color:var(--muted);font-size:15px}
+  .num{font-size:30px;font-weight:bold;color:var(--accent)}
+  ol.steps{padding-left:22px;color:var(--muted)}
+  ol.steps li{margin-bottom:8px}
+  ol.steps b{color:var(--text)}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:bold}
+  details p{color:var(--muted);margin:10px 0 0}
+  .note{font-size:14px;color:var(--muted)}
+  footer{padding:44px 0 56px;color:var(--muted);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="tag">UFest26 · Universidad Industrial de Santander</span>
+    <h1>Descifra <span>Hedera</span><br>Hackathon Web3</h1>
+    <p class="lead">Construye un proyecto sobre Hedera a tu ritmo, en línea y sin necesidad de experiencia previa en blockchain. Aquí está todo lo que necesitas en un solo lugar.</p>
+    <a class="btn" href="https://forms.gle/aWGESpycqHgVtVMy7" id="cta">Entregar mi proyecto</a>
+    <a class="btn alt" href="#recursos">Empezar con HFD</a>
+    <div class="deadline"><b>Fecha límite de entrega:</b> jueves 1 de octubre, 9:00 p. m. (hora de Colombia)</div>
+  </div>
+</header>
+
+<nav><div class="wrap">
+  <a href="#reto">El reto</a><a href="#participar">Participar</a><a href="#criterios">Criterios</a>
+  <a href="#premios">Premios</a><a href="#recursos">Recursos</a><a href="#ayuda">Ayuda</a>
+  <a href="#entrega">Entrega</a><a href="#faq">Preguntas</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="reto">
+  <h2>El reto</h2>
+  <p class="sub">Crea un prototipo que use Hedera para resolver un problema real de Santander o de tu comunidad.</p>
+  <div class="grid g3">
+    <div class="card"><h3>100 % virtual</h3><p>Desarrollas de forma asíncrona, cuando quieras, hasta la fecha límite.</p></div>
+    <div class="card"><h3>Solo o en equipo</h3><p>Puedes participar solo o en equipos de máximo 3 personas.</p></div>
+    <div class="card"><h3>Con IA permitida</h3><p>Puedes usar herramientas de IA para programar más rápido. Cuéntanos cuáles usaste.</p></div>
+  </div>
+</section>
+
+<section id="participar">
+  <h2>Cómo participar</h2>
+  <p class="sub">Los requisitos son pocos.</p>
+  <div class="grid g3">
+    <div class="card"><h3>Un computador</h3><p>Portátil o equipo para desarrollar durante el hackathon.</p></div>
+    <div class="card"><h3>Cuenta de GitHub</h3><p>Ahí subirás el código de tu proyecto.</p></div>
+    <div class="card"><h3>Ganas de aprender</h3><p>No necesitas saber de blockchain. Lo básico se explicó en la charla y aquí tienes recursos.</p></div>
+  </div>
+</section>
+
+<section id="criterios">
+  <h2>Cómo se califica</h2>
+  <p class="sub">Los jueces asignan hasta 100 puntos, repartidos así.</p>
+  <div class="grid g3">
+    <div class="card"><div class="num">30 %</div><h3>Impacto y relevancia</h3><p>¿Resuelve un problema real de Santander o de tu comunidad? ¿Está claro quién se beneficia y por qué importa?</p></div>
+    <div class="card"><div class="num">30 %</div><h3>Uso real de Hedera</h3><p>Incluyes un Account ID en testnet y transacciones verificables en HashScan. Cuenta más si Hedera es parte necesaria de la solución y no un adorno.</p></div>
+    <div class="card"><div class="num">25 %</div><h3>Viabilidad del prototipo</h3><p>¿Funciona lo que muestras? Se valora un prototipo pequeño pero real, con repositorio ordenado y README que explique cómo probarlo.</p></div>
+    <div class="card"><div class="num">15 %</div><h3>Presentación</h3><p>Video de máximo 3 minutos y descripción claras: problema, solución y demostración.</p></div>
+  </div>
+  <p class="note">No se califica la complejidad técnica por sí sola. Un proyecto sencillo, útil y bien explicado puede ganar.</p>
+</section>
+
+<section id="premios">
+  <h2>Premios</h2>
+  <p class="sub">Habrá 3 ganadores. Cada uno recibe dinero de Hedera y un premio en especie de la UIS.</p>
+  <div class="grid g3">
+    <div class="card"><div class="num">1.er lugar</div><p><b style="color:#fff">$100.000 COP</b><br>+ premio en especie de la UIS.</p></div>
+    <div class="card"><div class="num">2.º lugar</div><p><b style="color:#fff">$75.000 COP</b><br>+ premio en especie de la UIS.</p></div>
+    <div class="card"><div class="num">3.er lugar</div><p><b style="color:#fff">$50.000 COP</b><br>+ premio en especie de la UIS.</p></div>
+  </div>
+  <p class="note">Los premios en dinero son aportados por la comunidad de embajadores de Hedera.</p>
+</section>
+
+<section id="recursos">
+  <h2>Recursos para empezar</h2>
+  <p class="sub">Empieza por el primero: es la forma más fácil de experimentar con Hedera.</p>
+  <div class="card" style="margin-bottom:14px">
+    <h3>Hedera for Dummies (HFD)</h3>
+    <p>Una billetera de prueba para aprender haciendo, sin experiencia previa: envía HBAR, escribe mensajes en la blockchain y reclama un NFT, todo en testnet y sin riesgo.</p>
+    <p style="margin-top:12px"><a class="btn" style="margin:0" href="https://hfd-wallet.vercel.app/">Abrir HFD</a></p>
+  </div>
+  <h3 style="margin:22px 0 8px">Para construir tu proyecto</h3>
+  <ol class="steps">
+    <li><b>Crea tu cuenta de prueba</b> en el <a href="https://portal.hedera.com">portal de Hedera</a> y consigue HBAR de testnet gratis.</li>
+    <li><b>Lee la documentación</b> en <a href="https://docs.hedera.com">docs.hedera.com</a>. Elige tu servicio: Consensus Service (mensajes ordenados y verificables), Token Service (tokens y NFT) o contratos inteligentes.</li>
+    <li><b>Verifica tus transacciones</b> en <a href="https://hashscan.io/testnet">HashScan (testnet)</a>. Ahí compruebas tu Account ID y el ID de transacción que debes entregar.</li>
+  </ol>
+  <h3 style="margin:22px 0 8px">Para acelerar con IA</h3>
+  <div class="grid g3">
+    <div class="card"><h3>hedera-skills</h3><p>Ejemplos cortos y correctos de código en Hedera, listos para dárselos a tu asistente de IA.</p><p style="margin-top:8px"><a href="https://github.com/hedera-dev/hedera-skills">Ver repositorio</a></p></div>
+    <div class="card"><h3>hedera-harness</h3><p>Marco de pruebas y desarrollo para Hedera.</p><p style="margin-top:8px"><a href="https://github.com/hedera-dev/hedera-harness">Ver repositorio</a></p></div>
+    <div class="card"><h3>Scaffold-HBAR</h3><p>Plantilla abierta para arrancar una dApp en Hedera sin empezar de cero.</p><p style="margin-top:8px"><a href="https://github.com/hedera-dev/scaffold-hbar">Ver repositorio</a></p></div>
+    <div class="card"><h3>Hedera Agent Kit</h3><p>Herramientas para construir agentes de IA que usan Hedera.</p><p style="margin-top:8px"><a href="https://github.com/hashgraph/hedera-agent-kit-js">Ver repositorio</a></p></div>
+    <div class="card"><h3>Hedera Developers</h3><p>Todos los repositorios y ejemplos oficiales para desarrolladores.</p><p style="margin-top:8px"><a href="https://github.com/hedera-dev">Ver en GitHub</a></p></div>
+    <div class="card"><h3>YouTube de Hedera</h3><p>Videos y tutoriales oficiales para aprender viendo.</p><p style="margin-top:8px"><a href="https://www.youtube.com/c/HederaOfficial">Ver canal</a></p></div>
+  </div>
+</section>
+
+<section id="ayuda">
+  <h2>Ayuda</h2>
+  <p class="sub">Recibe ayuda de la comunidad y del equipo de Hedera.</p>
+  <div class="card">
+    <h3>Discord de la comunidad</h3>
+    <p>Pregunta lo que necesites o busca si tu duda ya fue respondida. La comunidad y el equipo de Hedera te ayudan.</p>
+    <p style="margin-top:12px"><a class="btn" style="margin:0" href="https://discord.com/invite/AAnevYPXqx">Entrar al Discord</a></p>
+  </div>
+</section>
+
+<section id="entrega">
+  <h2>Cómo entregar</h2>
+  <p class="sub">Un solo envío por equipo, antes del jueves 1 de octubre a las 9:00 p. m.</p>
+  <div class="card">
+    <p>En el formulario te pediremos: nombre del equipo e integrantes, descripción del proyecto, enlace al repositorio de GitHub, video corto de presentación (máx. 3 minutos) y tu Account ID o ID de transacción en testnet.</p>
+    <p style="margin-top:12px"><a class="btn" style="margin:0" href="https://forms.gle/aWGESpycqHgVtVMy7">Ir al formulario de entrega</a></p>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Preguntas frecuentes</h2>
+  <p class="sub">&nbsp;</p>
+  <details><summary>¿Necesito experiencia en blockchain?</summary><p>No. Empezamos desde cero en la charla y aquí tienes recursos. Basta con saber programar lo básico o apoyarte en IA.</p></details>
+  <details><summary>¿Puedo participar solo?</summary><p>Sí. También puedes hacerlo en equipo de hasta 3 personas.</p></details>
+  <details><summary>¿Tengo que estar presencialmente?</summary><p>No. El hackathon es virtual y asíncrono. Solo la charla de apertura fue presencial.</p></details>
+  <details><summary>¿Puedo usar herramientas de IA?</summary><p>Sí, siempre que nos cuentes cuáles usaste en el formulario.</p></details>
+  <details><summary>¿Y si no alcanzo a terminar?</summary><p>Entrega lo que tengas. Se valora un prototipo funcional aunque sea pequeño, con uso real de Hedera.</p></details>
+  <details><summary>¿Cuántos ganadores hay?</summary><p>Tres. Cada uno recibe dinero de Hedera ($100.000, $75.000 y $50.000 COP) y un premio en especie de la UIS.</p></details>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">Descifra Hedera · UFest26 · Universidad Industrial de Santander, Bucaramanga<br>Organizan embajadores de la comunidad Hedera.</div>
+</footer>
+
+</body>
+</html>
